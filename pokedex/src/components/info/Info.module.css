@@ -1,0 +1,66 @@
+.info_block{
+    position: relative;
+    min-height: 100%;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+    color: black;
+    position: sticky;
+    top: 100px;
+    width: 75%;
+    padding: 10px 10px 15px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.info img{
+    width: 100%;
+}
+.info .name{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.info .name h2{
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+table, td, th {
+    border: 1px solid black;
+}
+table .table_name{
+    width: 70%;
+    padding: 5px;
+}
+table .table_info{
+    font-size: 15px;
+}
+@media screen and (max-width: 1000px) {
+    .info img{
+        height: auto;
+    }
+  }
+ @media screen and (max-width: 780px) {
+    .info .name h2{
+        font-size: 18px;
+    }
+    table {
+        font-size: 10px;
+    }
+    table .table_info{
+        font-size: 10px;
+    }
+    table .table_name{
+        width: 50%;
+    }
+}  
+@media screen and (max-width: 625px) {
+    .info{
+        background-color: #fefefe;
+    }
+}
